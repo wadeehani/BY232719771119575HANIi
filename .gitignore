@@ -1,7 +1,15 @@
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS | gg.REGION_BAD | gg.REGION_C_ALLOC)
+gg.toast("Expired: 2030 / 12 / 25")
+DateE = "20301225"
+DateToday = os.date("20210615")
+if DateToday >= DateE then
+  print("☆━━━━☆ « 🗓 » Script Expired « 🗓 » ☆━━━━━☆\n\n☆━━━━━━━━━━━━━━━━━━━━━━━☆\n                      ⭕للتجديد التواصل مع : WADEEAMAN\n☆━━━━━━━━━━━━━━━━━━━━━━━☆")
+  return os.exit()
+end
 gg.alert[[WELCOME TO WADEE AMAN VIP SCRIPT 
 ══════════════════
 ملاحظة : التفعيلات قويه ووحشيه العب بذكاء وتجنب البوتات فقط كن حذرًا
-qqq1
+
 تاريخ انتهاء السكربت : 2030 / 12 /25  
 ══════════════════]]
   function  HOME()
