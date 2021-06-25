@@ -17,8 +17,8 @@ if DateToday >= DateE then
   return os.exit()
 end
 
-local Passwords = {"WADEE"} 
-local Menu = gg.prompt({"Select Password :"},nil,{"text"})
+local1 Passwords = {"WADEE"} 
+local2 Menu = gg.prompt({"Select Password :"},nil,{"text"})
 if not Menu then return end
 for l , I in pairs(Passwords) do
 if Menu[1] == I then A = true end
