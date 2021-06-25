@@ -1,3 +1,31 @@
+
+local Passwords = {"ahmed"} 
+local Menu = gg.prompt({"Select Password :"},nil,{"text"})
+if not Menu then return end
+for l , I in pairs(Passwords) do
+if Menu[1] == I then A = true end
+end
+if A ~= true then gg.alert("☆━☆ « ⚠ » Error Password « ⚠ » ☆━☆") return else gg.toast("☆━☆ « ✅ » Correct Password « ✅ » ☆━☆") 
+  
+end
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS | gg.REGION_BAD | gg.REGION_C_ALLOC)
+gg.toast("Expired: 2020 / 12 / 25")
+DateE = "20210625"
+DateToday = os.date("20210625")
+if DateToday >= DateE then
+  print("☆━━━━☆ « 🗓 » Script Expired « 🗓 » ☆━━━━━☆\n\n☆━━━━━━━━━━━━━━━━━━━━━━━☆\n                      ⭕للتجديد التواصل مع : WADEEAMAN\n☆━━━━━━━━━━━━━━━━━━━━━━━☆")
+  return os.exit()
+end
+
+local Passwords = {"WADEE"} 
+local Menu = gg.prompt({"Select Password :"},nil,{"text"})
+if not Menu then return end
+for l , I in pairs(Passwords) do
+if Menu[1] == I then A = true end
+end
+if A ~= true then gg.alert("☆━☆ « ⚠ » Error Password « ⚠ » ☆━☆") return else gg.toast("☆━☆ « ✅ » Correct Password « ✅ » ☆━☆") 
+  
+end
 gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS | gg.REGION_BAD | gg.REGION_C_ALLOC)
 gg.toast("Expired: 2030 / 12 / 25")
 DateE = "20301225"
