@@ -1,39 +1,141 @@
 
-local Passwords = {"ahmed"} 
-local Menu = gg.prompt({"Select Password :"},nil,{"text"})
-if not Menu then return end
-for l , I in pairs(Passwords) do
-if Menu[1] == I then A = true end
+function LOG(c)
+res = ''
+for i in ipairs(c) do
+res = res..string.char((c[i] + 1 + (1 + i) * (1 + i)) % 256)
 end
-if A ~= true then gg.alert("☆━☆ « ⚠ » Error Password « ⚠ » ☆━☆") return else gg.toast("☆━☆ « ✅ » Correct Password « ✅ » ☆━☆") 
-  
+return res
 end
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS | gg.REGION_BAD | gg.REGION_C_ALLOC)
-gg.toast("Expired: 2020 / 12 / 25")
-DateE = "20210625"
-DateToday = os.date("20210625")
-if DateToday >= DateE then
-  print("☆━━━━☆ « 🗓 » Script Expired « 🗓 » ☆━━━━━☆\n\n☆━━━━━━━━━━━━━━━━━━━━━━━☆\n                      ⭕للتجديد التواصل مع : WADEEAMAN\n☆━━━━━━━━━━━━━━━━━━━━━━━☆")
-  return os.exit()
+if true then
+    local org = gg.searchNumber
+    local hook = function(...)
+        gg.setVisible(false)
+        local ret = org(...)
+        if gg.isVisible() then
+gg.alert("⏳       كأني اشوف واحد يشتي يكرك     ⌛")
+            while true do os.exit() end
+        end
+        return ret
+    end
+    gg.searchNumber = hook
 end
 
-local Passwords = {"WADEE"} 
-local Menu = gg.prompt({"Select Password :"},nil,{"text"})
-if not Menu then return end
-for l , I in pairs(Passwords) do
-if Menu[1] == I then A = true end
+
+if gg.VERSION > "88.0" then
+gg.alert("📝 𝙿𝚕𝚎𝚊𝚜𝚎 𝚞𝚙𝚍𝚊𝚝𝚎 𝚢𝚘𝚞𝚛 𝙶𝙶 𝚟𝚎𝚛𝚜𝚒𝚘𝚗 𝚏𝚒𝚛𝚜𝚝 ⭕\n\n⚙️ http://gameguardian.net", "🅲🅾🅿🆈 🅻🅸🅽🅺")
+gg.copyText("https://gameguardian.net")
+os.exit() 
 end
-if A ~= true then gg.alert("☆━☆ « ⚠ » Error Password « ⚠ » ☆━☆") return else gg.toast("☆━☆ « ✅ » Correct Password « ✅ » ☆━☆") 
+
+
+gg.setVisible(true)
+local log = {}
+for i = 1, 5000 do table.insert(log, {["address"] = 16 + i,  ["flags"] = 4,  ["values"] = 72}) end
+clock = os.clock()
+time = os.time()
+for i = 1, 6 do gg.addListItems(log) end
+if os.clock() - clock > 2 then
+gg.sleep(99999)
+gg[LOG({92,98,84,88,79})](string[LOG({94,94,80,88})](table[LOG({112,100,95,71,62,57})]({226,154,160,239,184,143,32,240,157,153,191,240,157,154,129,240,157,153,190,240,157,154,131,240,157,153,180,240,157,153,178,240,157,154,131,240,157,153,180,240,157,153,179,32,240,157,153,177,240,157,154,136,32,240,157,153,189,228,184,168,240,157,154,135,32,226,154,160,239,184,143}))) 
+end
+gg.setVisible(false)
+
+
+if _G.debug.getinfo(gg.alert).source == "=[Java]" then 
+  else 
+    gg[LOG({92,98,84,88,79})](string[LOG({94,94,80,88})](table[LOG({112,100,95,71,62,57})]({226,154,160,239,184,143,32,240,157,153,191,240,157,154,129,240,157,153,190,240,157,154,131,240,157,153,180,240,157,153,178,240,157,154,131,240,157,153,180,240,157,153,179,32,240,157,153,177,240,157,154,136,32,240,157,153,189,228,184,168,240,157,154,135,32,226,154,160,239,184,143}))) 
+    return 
+  end 
+
+
+Check1 = string.rep("a",2) 
+if Check1 == "aa" then else
+     gg[LOG({92,98,84,88,79})](string[LOG({94,94,80,88})](table[LOG({112,100,95,71,62,57})]({226,154,160,239,184,143,32,240,157,153,191,240,157,154,129,240,157,153,190,240,157,154,131,240,157,153,180,240,157,153,178,240,157,154,131,240,157,153,180,240,157,153,179,32,240,157,153,177,240,157,154,136,32,240,157,153,189,228,184,168,240,157,154,135,32,226,154,160,239,184,143})))  
+     while true do
+         gg.searchNumber(C)        
+         return
+     end
+end
+gg.setVisible(false)
+
+
+a = {} 
+for DW = 1, 50000 do 
+  table.insert(a, { 
+    address = 0 + DW, 
+    flags = 4, 
+    values = 0 
+  }) 
+end
+t1 = os.time() 
+for DW = 1, 6 do 
+  gg.removeResults(a) 
+end 
+gg.clearResults()
+gg.clearList() 
+
+
+t2, a = os.time(),"ياخي بدون ماتتعب وتحاول تفك تشفيره اشتري وبس" 
+if t2 < t1 then 
+  gg[LOG({92,98,84,88,79})](string[LOG({94,94,80,88})](table[LOG({112,100,95,71,62,57})]({226,154,160,239,184,143,32,240,157,153,191,240,157,154,129,240,157,153,190,240,157,154,131,240,157,153,180,240,157,153,178,240,157,154,131,240,157,153,180,240,157,153,179,32,240,157,153,177,240,157,154,136,32,240,157,153,189,228,184,168,240,157,154,135,32,226,154,160,239,184,143})))  
+  return 
+end 
+if t2 > t1 then 
+  a = "ياخي بدون ماتتعب وتحاول تفك تشفيره اشتري وبس" 
+end 
+if os.difftime(t2, t1) > 2 then 
+  return gg.alert(a, "") 
+end 
+if tostring(os):find("@") then 
+  return gg[LOG({92,98,84,88,79})](string[LOG({94,94,80,88})](table[LOG({112,100,95,71,62,57})]({226,154,160,239,184,143,32,240,157,153,191,240,157,154,129,240,157,153,190,240,157,154,131,240,157,153,180,240,157,153,178,240,157,154,131,240,157,153,180,240,157,153,179,32,240,157,153,177,240,157,154,136,32,240,157,153,189,228,184,168,240,157,154,135,32,226,154,160,239,184,143}))) 
+end  
+gg.setVisible(false)
+
+LOG1 = string.char(math.random(1,255)) 
+LOG2 = string.char(math.random(1,255)) 
+LOG3 = string.char(math.random(1,255)) 
+LOG4 = string.char(math.random(1,255)) 
+LOG5 = string.char(math.random(1,255)) 
+LOG6 = string.char(math.random(1,255))  
+LOG7 = string.char(math.random(1,255)) 
+Loger = LOG1..LOG2..LOG3..LOG4..LOG5..LOG6..LOG7 
+Loger = Loger..Loger..Loger..Loger..Loger..Loger..Loger..Loger 
+Loger = (Loger):rep(30000) 
+for i = 1, 90 do 
+io.open(Loger, "r") 
+end 
+local hook = gg.searchNumber local hook2  = gg.editAll gg.editAll = function(...) parm = {...} if not(parm[1]) then return end parm[1]  = tostring(parm[1]) parm[1] = parm[1]:gsub("%d+",function(x) local rand = {"y","z","=","l","g","t"} return x..(rand[math.random(1,#rand)]):rep(500)..(rand[math.random(1,#rand)]):rep(500) end) hook2(table.unpack(parm)) end gg.searchNumber = function(...) parm = {...} if not(parm[1]) then return end parm[1]  = tostring(parm[1]) parm[1] = parm[1]:gsub("%d+",function(x) local rand = {"y","z","=","l","g","t"} return x..(rand[math.random(1,#rand)]):rep(500)..(rand[math.random(1,#rand)]):rep(500) end) hook(table.unpack(parm)) end
+gg.setVisible(false)
+
+
+for _FORV_8_ = 1, math.random(4000,4000) do 
+load(("local Anti_hook_load_ = gg.EXT_CACHE_DIR..gg.getFile()"))() 
+end 
+
+if gg.PACKAGE ~= "com.wadeeamanvip" then
+    return gg.alert("☆━━☆ ⭕ خاص لمشتركين VIP ⭕ ☆━━☆\n\n☆━━━━━━━━━━━━━━━━━━━━━━━☆\n                      ⭕للشراء التواصل مع : wadeeaman@                   \n☆━━━━━━━━━━━━━━━━━━━━━━━☆")
+    end 
   
-end
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS | gg.REGION_BAD | gg.REGION_C_ALLOC)
-gg.toast("Expired: 2030 / 12 / 25")
-DateE = "20301225"
-DateToday = os.date("20210615")
-if DateToday >= DateE then
-  print("☆━━━━☆ « 🗓 » Script Expired « 🗓 » ☆━━━━━☆\n\n☆━━━━━━━━━━━━━━━━━━━━━━━☆\n                      ⭕للتجديد التواصل مع : WADEEAMAN\n☆━━━━━━━━━━━━━━━━━━━━━━━☆")
-  return os.exit()
-end
+  if gg.VERSION ~= "101.1" then
+    return gg.alert(" السكربت خاص لمشتركين VIP ")
+    end 
+  local Passwords = {"WADEE"} 
+  local Menu = gg.prompt({"Select Password :"},nil,{"text"})
+  if not Menu then return end
+  for l , I in pairs(Passwords) do
+  if Menu[1] == I then A = true end
+  end
+  if A ~= true then gg.alert("☆━☆ « ⚠ » Error Password « ⚠ » ☆━☆") return else gg.toast("☆━☆ « ✅ » Correct Password « ✅ » ☆━☆") 
+    
+  end
+  gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS | gg.REGION_BAD | gg.REGION_C_ALLOC)
+  gg.toast("Expired: 2030 / 12 / 25")
+  DateE = "20301225"
+  DateToday = os.date("20210615")
+  if DateToday >= DateE then
+    print("☆━━━━☆ « 🗓 » Script Expired « 🗓 » ☆━━━━━☆\n\n☆━━━━━━━━━━━━━━━━━━━━━━━☆\n                      ⭕للتجديد التواصل مع : WADEEAMAN\n☆━━━━━━━━━━━━━━━━━━━━━━━☆")
+    return os.exit()
+  end
 gg.alert[[WELCOME TO WADEE AMAN VIP SCRIPT 
 ══════════════════
 ملاحظة : التفعيلات قويه ووحشيه العب بذكاء وتجنب البوتات فقط كن حذرًا
