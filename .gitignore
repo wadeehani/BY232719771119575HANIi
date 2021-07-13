@@ -75,6 +75,7 @@ function WADEE() setvalue(address,flags,value)  local refinevalues={}  refineval
       ══════════════════
       ══════════════════
       يـرجـئ تـنظيـف الـعبة اولاً
+     يرجى استخدام خيار تنظيف العبة بعد كل جيم
       ══════════════════
     ]])))		
     if  HO  ==  nil  then
