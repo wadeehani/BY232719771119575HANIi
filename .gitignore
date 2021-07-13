@@ -24,7 +24,7 @@ if DateToday >= DateE then
 end
 gg.toast("Connecting Server.... ")
 gg.sleep(300)
-gg.alert("هاذا السكربت مجاناً لمدة أسبوع فقط⭕") 
+gg.alert("هاذا السكربت مجاناً لمدة أسبوع فقط ⭕") 
 
 
 os.remove("src/main/java/com/google/errorprone/annotations")
