@@ -25,7 +25,7 @@ if gg.PACKAGE ~= "com.wadeeamanvip" then
   gg.toast("Connecting Server.... ")
   gg.sleep(300)
   gg.alert("هاذا السكربت مجاناً لمدة أسبوع فقط ⭕") 
-  
+   gg.alert("جاري اضافت بعض التفعيلات وتغير بقائمة المجك والهد شوت ⭕") 
   
   os.remove("src/main/java/com/google/errorprone/annotations")
   os.remove("src/main/java/com/google/errorprone/annotations")
