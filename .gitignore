@@ -25,7 +25,7 @@ end
 gg.toast("Connecting Server.... ")
 gg.sleep(300)
 gg.alert("هاذا السكربت مجاناً لمدة أسبوع فقط ⭕") 
-gg.alert(" السكربت مُحدث🟢") 
+gg.alert(" السكربت مُحدث 🟢") 
 
 
 os.remove("src/main/java/com/google/errorprone/annotations")
