@@ -6217,22 +6217,11 @@ end
 
 
 function SKIN0()
-gg.alert('جاري تعديل قائمة السكنات')
-os.HOME()
-end
   gg.alert("لازم الاسكنات تتفعل في الوبي وتكون محمل موارد")
 sk = gg.choice({
-"💵Sᴋɪɴ Pᴀᴄᴋ📦",
-"🥊Gʟᴏᴠᴇs🧤",
-"🗡️Kɴɪғᴇs🔪",
-"🌠Gᴜɴs🔫",
-"🌪️SᴜʙMᴀᴄʜɪɴᴇs🔫",
-"🔰Mᴀᴄʜɪɴᴇs🔫",
-"🎖️Mᴇᴅᴀʟs🏅",
-"🎁Cᴀsᴇs & Exᴛʀᴀ📦",
-"️⭕Mᴇɴᴜ️⭕",
-},nil,'🔮BY | WADEE AMAN🔮')
-if sk == 1 then SkinPack1() end 
+"️⭕رجوع⭕",
+},nil,'قائمة السكنات قيد التطوير')
+if sk == 1 then HOME() end 
 if sk == 2 then GLOVESPA() end
 if sk == 3 then MENUU2() end
 if so == 4 then PISTOLAS() end
@@ -6240,7 +6229,7 @@ if sk == 5 then SUBF1() end
 if sk == 6 then FUSIL1() end
 if sk == 7 then Medals() end
 if sk == 8 then Extra() end
-if sk == 9 then HOME() end
+if sk == 9 then SkinPack1() end
 gg.toast('━━ 𝔹𝕪 WADEE AMAN💎')
 end
 
