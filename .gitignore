@@ -13,7 +13,7 @@ if gg.PACKAGE ~= "com.wadeeamanvip" then
   for l , I in pairs(Passwords) do
   if Menu[1] == I then A = true end
   end
-  if A ~= true then gg.alert("☆━☆ « ⚠ » Error Password « ⚠ » ☆━☆") return else gg.toast("☆━☆ « ✅ » Correct Password « ✅ » ☆━☆") 
+  if A ~= true then gg.alert("☆━☆ « ⚠ » Error Password « ⚠ » ☆━☆") return else gg.toast("☆━☆  SCRIPT WADEEAMAN VIP 🔴 ☆━☆") 
     
   end
   gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS | gg.REGION_BAD | gg.REGION_C_ALLOC)
