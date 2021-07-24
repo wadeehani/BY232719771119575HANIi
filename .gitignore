@@ -18,6 +18,7 @@ if gg.PACKAGE ~= "com.wadeeamanvip" then
   end
   gg.setRanges(gg.REGION_C_DATA | gg.REGION_ANONYMOUS | gg.REGION_BAD | gg.REGION_C_ALLOC)
   gg.toast("Expired: 2021 / 7 / 26")
+gg.sleep(200)
   DateE = "20210726"
   DateToday = os.date("20210719")
   if DateToday >= DateE then
