@@ -27,8 +27,8 @@ if gg.PACKAGE ~= "com.wadeeamanvip" then
   gg.toast("Connecting Server.... ")
   gg.sleep(300)
   gg.alert("هاذا السكربت مجاناً لمدة أسبوع فقط ⭕") 
-  gg.alert(" السكربت مُحدث 🟢") 
-  
+  gg.toast(" السكربت مُحدث 🟢") 
+    gg.sleep(300)
   gg.alert(" تم تحديث السكربت\n\nوتم اضافة قائمة السكنات\n\nوتم تعديل قائمة السرعة والطيران\n\nللتعامل مع الهاك بشكل اسهل\n\n  SCRIPT WADEEAMAN VIP 🔴") 
   
   os.remove("src/main/java/com/google/errorprone/annotations")
